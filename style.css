@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+body>main{
+    display: flex;
+    justify-content: start;
+}
+body>main>#left-section>h1>span{
+    color: #989898;
+}
