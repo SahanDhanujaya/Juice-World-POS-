@@ -17,7 +17,9 @@ body>main>#left-section>h1{
     font-family: "Caveat Brush", cursive;
     font-weight: 400;
     font-style: normal;
-    padding: 1rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
 }
 body>main>#left-section>h1>span {
     color: #989898;
@@ -41,4 +43,24 @@ body>main>#left-section>h1>span {
     text-decoration: none;
     color: black;
     margin-left: 1rem;
+}
+#middle-section #header{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#middle-section #header>div{
+    padding: 0.8rem;
+}
+
+#middle-section #header>div>input{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#middle-section #header>div>button{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 20%;
+    background-color: black;
+    color: white;
+    border: none;
 }
