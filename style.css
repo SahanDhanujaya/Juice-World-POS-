@@ -1,15 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    
-}
-body>main{
+
+body {}
+
+body>main {
     display: flex;
     justify-content: start;
 }
-body>main>#left-section>h1>span{
+body>main>#left-section{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+body>main>#left-section>h1{
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1rem;
+}
+body>main>#left-section>h1>span {
     color: #989898;
+    
+}
+#left-section nav{
+    padding: 1em;
+    align-content: center;
+}
+#left-section nav>ul{
+    padding: 0;
+}
+#left-section nav>ul>li{
+    list-style: none;
+    margin-top: 1em;
+}
+#left-section nav>ul>li>img{
+    width: 1.5rem;
+}
+#left-section nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
 }
